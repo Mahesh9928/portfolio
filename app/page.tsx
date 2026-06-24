@@ -69,14 +69,39 @@ export default function Home() {
       </section>
 
       {/* Contact */}
-      <section className="max-w-6xl mx-auto px-6 py-10 pb-20">
-        <h2 className="text-3xl font-bold mb-4">
-          Contact
-        </h2>
+     <section className="max-w-6xl mx-auto px-6 py-10 pb-20">
+  <h2 className="text-3xl font-bold mb-4">
+    Contact
+  </h2>
 
-        <p>Email: your-email@gmail.com</p>
-        <p>GitHub: Mahesh9928</p>
-      </section>
+  <div className="space-y-3 text-gray-300">
+    <p>
+      Email: maheshvashishth713@gmail.com
+    </p>
+
+    <p>
+      GitHub:
+      <a
+        href="https://github.com/Mahesh9928"
+        target="_blank"
+        className="text-sky-400 ml-2"
+      >
+        Mahesh9928
+      </a>
+    </p>
+
+    <p>
+      LinkedIn:
+      <a
+        href="https://www.linkedin.com/in/mahesh-vashishth-761074140/"
+        target="_blank"
+        className="text-sky-400 ml-2"
+      >
+        View Profile
+      </a>
+    </p>
+  </div>
+</section>
     </main>
   );
 }
